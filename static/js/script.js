@@ -1677,7 +1677,6 @@ window.updateCartQuantity = updateCartQuantity;
 window.setActiveCategory = setActiveCategory;
 window.showNotification = showNotification;
 
-// Close search results when clicking outside
 document.addEventListener('click', (e) => {
     if (!e.target.closest('.search-box') && elements.searchResults) {
         elements.searchResults.style.display = 'none';
